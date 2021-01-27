@@ -10,7 +10,7 @@ Converts JSON into formatted markup. Creates nested ordered and unordered lists 
 const json2markup = require('json2markup');
 ```
 
-#### json2markup(objectToConvert, config)
+### json2markup(objectToConvert, config)
 
 **`objectToConvert`** *required* (`string`, `object`, or `array`): *Strings are interpreted as JSON and parsed, objects and arrays are interpreted literally*
 
@@ -23,7 +23,7 @@ const json2markup = require('json2markup');
 
 ---
 
-#### Examples
+### Examples
 
 **`example.json`**
 
@@ -97,7 +97,7 @@ json2markup(myJSON)
 
 ```javascript
 const obj = {
-	one: ['foo', 'bar', 'baz'],
+    one: ['foo', 'bar', 'baz'],
     two: "don't mind<body onafterprint=alert(1)> me!"
 }
 
