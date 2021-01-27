@@ -1,0 +1,31 @@
+{
+  "name": "json2markup",
+  "version": "1.0.0",
+  "description": "Converts JSON into formatted markup. Creates nested ordered and unordered lists in either HTML or Markdown. Has an extremely simple API with optional HTML sanitization.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melgrove/json2markup.git"
+  },
+  "keywords": [
+    "json",
+    "html",
+    "markdown",
+    "nested",
+    "list"
+  ],
+  "author": "Oliver Melgrove",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/melgrove/json2markup/issues"
+  },
+  "homepage": "https://github.com/melgrove/json2markup#readme",
+  "dependencies": {
+    "@melgrove/type": "^1.0.0",
+    "sanitize-html": "^2.3.2",
+    "turndown": "^7.0.0"
+  }
+}
