@@ -91,8 +91,6 @@ json2markup(myJSON)
 <ul><li>unordered lists are created from objects: <ul><li>foo: true</li><li>bar: false</li></ul></li><li>ordered lists are created from arrays: <ol><li>this is an example</li><li><ul><li>nested: true</li><li>more nesting: <ol><li>true</li><li><ol><li>even</li><li><ul><li>more: and</li><li>even: more</li></ul></li></ol></li></ol></li></ul></li><li>another element</li></ol></li></ul>
 ```
 
----
-
 **You can also pass JavaScript objects and arrays, and sanitize HTML**
 
 ```javascript
@@ -111,28 +109,3 @@ json2markup(obj, {return: 'markdown', sanitize: true})
     2.  bar
     3.  baz
 *   two: don't mind me!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
